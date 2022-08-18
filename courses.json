@@ -1,0 +1,46 @@
+[
+    {
+        "title": "COMP3230",
+        "type": "Tutorial",
+        "arrangements": [
+            {
+                "dayOfWeek": "4",
+                "startTime": "1030",
+                "endTime": "1220",
+                "location": "CYPP2",
+                "startDate": "2022-01-01",
+                "endDate": "2022-10-06"
+            },
+            {
+                "dayOfWeek": "4",
+                "startTime": "1030",
+                "endTime": "1220",
+                "location": "CYPP2",
+                "startDate": "2022-10-20",
+                "endDate": "2022-11-24"
+            }
+        ]
+    },
+    {
+        "title": "COMP3230",
+        "type": "Lecture",
+        "arrangements": [
+            {
+                "dayOfWeek": "2",
+                "startTime": "1030",
+                "endTime": "1220",
+                "location": "CPD-LG.01",
+                "startDate": "2022-09-06",
+                "endDate": "2022-09-27"
+            },
+            {
+                "dayOfWeek": "2",
+                "startTime": "1030",
+                "endTime": "1220",
+                "location": "CPD-LG.01",
+                "startDate": "2022-10-18",
+                "endDate": "2022-11-29"
+            }
+        ]
+    }
+]
