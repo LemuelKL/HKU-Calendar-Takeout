@@ -13,6 +13,9 @@ This little python script makes the life of a HKU student easier. You can copy-p
 6. Repeat from Step 2 for each course.
 7. All these text files should be placed under a `./data` directory relative to `main.py`.
 
+### Prerequisites
+`python3`, `pip3`, `virtualenv` (recommended).
+
 ### Running the script
 ```zsh
 virtualenv ev
