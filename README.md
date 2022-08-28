@@ -18,7 +18,7 @@ This little python script makes the life of a HKU student easier. You can copy-p
 
 ### Running the script
 ```zsh
-virtualenv ev
+virtualenv ve
 source ve/bin/activate
 pip install -r requirement.txt
 python main.py
