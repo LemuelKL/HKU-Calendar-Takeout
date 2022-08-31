@@ -17,8 +17,9 @@ def main():
             course_codes.append(course_code)
 
     else:
-        for filename in os.listdir('data'):
-            course_codes.append(filename.split('.')[0])
+        for filename in os.listdir('./data'):
+            if filename.endswith('.txt'):
+                course_codes.append(filename[:-4])
 
     c = Calendar()
 
