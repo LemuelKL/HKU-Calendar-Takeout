@@ -13,6 +13,12 @@ This little python script makes the life of a HKU student easier. You can copy-p
 6. Repeat from Step 2 for each course.
 7. All these text files should be placed under a `./data` directory relative to `main.py`.
 
+### Assumptions
+- A course is comprised of lessons.
+- A course has at most two lessons per week.
+- Lessons are either of Lecture or Tutorial type.
+- Each lesson type always occur on the same day of the week.
+
 ### Prerequisites
 `python3`, `pip3`, `venv` (recommended).
 

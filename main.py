@@ -33,11 +33,20 @@ def main():
         lesson_days.sort()
 
         print(f'/// {course_code} ///')
-        lecture_day = int(input(f'Enter the day of the week for lectures ({lesson_days[0]}/{lesson_days[1]}): '))
+        lecture_style = input(f'Enter the day of the week for lectures ({lesson_days[0]}/{lesson_days[1]}/Both/none): ')
+
+
+        if lecture_style == "Both" or lecture_style == "both" or lecture_style == "":
+            lecture_days = lesson_days
+        elif lecture_style == "none" or lecture_style == "None":
+            lecture_days = []
+        else:
+            lecture_days = [int(lecture_style)]
+
 
         for lesson in lessons:
             cursor_date = lesson.start_date
-            lesson_type = 'Lecture' if lesson.day_of_week == lecture_day else 'Tutorial'
+            lesson_type = 'Lecture' if lesson.day_of_week in lecture_days else 'Tutorial'
             print(f'Processing {course_code} {lesson_type}')
             while cursor_date <= lesson.end_date:
                 if cursor_date.weekday() == lesson.day_of_week:
