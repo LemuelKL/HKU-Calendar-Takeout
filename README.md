@@ -14,13 +14,13 @@ This little python script makes the life of a HKU student easier. You can copy-p
 7. All these text files should be placed under a `./data` directory relative to `main.py`.
 
 ### Prerequisites
-`python3`, `pip3`, `virtualenv` (recommended).
+`python3`, `pip3`, `venv` (recommended).
 
 ### Running the script
 ```zsh
-virtualenv ve
-source ve/bin/activate
-pip install -r requirement.txt
-python main.py
+python3 -m venv .ve
+source .ve/bin/activate
+pip3 install -r requirement.txt
+python3 main.py
 ```
 Lastly, import the newly created `courses.ics` to your favourite calendar client.
